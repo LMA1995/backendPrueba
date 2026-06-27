@@ -1,13 +1,19 @@
 {
   "name": "primerbackend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Primera practica de backend y endpoints",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "node --watch index"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "endpoints",
+    "Middlewares",
+    "Server",
+    "Port"
+  ],
+  "author": "Luis Miguel Altamiranda",
   "license": "ISC",
   "devEngines": {
     "packageManager": {
@@ -16,5 +22,8 @@
       "onFail": "download"
     }
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
